@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container-1{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+}
+.container-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    background-color: dodgerblue;
+}
+.type{
+    width: 50px;
+}
+.choose{
+    width: 77px;
+}
+.choose2{
+    width: 77px;
+}
+.convert{
+    height: 20px;
+    width: 77px;
+    background-color:green;
+    border-radius: 5px;
+}
+.container-2{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
