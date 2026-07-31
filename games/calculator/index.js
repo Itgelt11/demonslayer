@@ -3,27 +3,30 @@ const display = document.querySelector(".values");
 let hariu = 0;
 let prev = 0;
 const symbols = [
-  1,
-  2,
-  3,
-  4,
-  5,
-  6,
+  "x",
+  "AC",
+  "...",
+  "/",
   7,
   8,
   9,
-  0,
   "*",
-  "/",
-  "+",
+  4,
+  5,
+  6,
   "-",
+  1,
+  2,
+  3,
+  "+",
+  "...",
+  0,
   ".",
-  "x",
-  "AC",
   "=",
 ];
 symbols.map((element) => {
   const button = document.createElement("button");
+  button.style.backgroundColor = "orange";
   button.textContent = element;
   container.appendChild(button);
   button.addEventListener("click", function () {
