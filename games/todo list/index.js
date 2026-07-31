@@ -19,7 +19,7 @@ add.addEventListener("click", function () {
   newDiv.appendChild(button);
   button.style.backgroundColor = "red";
   button.style.borderRadius = "3px";
-  button.style.height = "30px";
+  button.style.height = "40px";
 
   button.addEventListener("click", function () {
     newDiv.remove();
@@ -28,8 +28,8 @@ add.addEventListener("click", function () {
   const done = document.createElement("button");
   done.style.backgroundColor = "green";
   undone.style.backgroundColor = "red";
-  done.style.height = "30px";
-  undone.style.height = "30px";
+  done.style.height = "40px";
+  undone.style.height = "40px";
   done.style.borderRadius = "3px";
   undone.style.borderRadius = "3px";
   done.textContent = "done";
@@ -49,7 +49,7 @@ add.addEventListener("click", function () {
   const edit = document.createElement("button");
   edit.textContent = "edit";
   edit.style.backgroundColor = "yellow";
-  edit.style.height = "30px";
+  edit.style.height = "40px";
   edit.style.borderRadius = "3px";
   newDiv.appendChild(edit);
 
@@ -62,7 +62,7 @@ add.addEventListener("click", function () {
     const save = document.createElement("button");
     save.textContent = "save";
     save.style.backgroundColor = "lightgreen";
-    save.style.height = "30px";
+    save.style.height = "40px";
     save.style.borderRadius = "3px";
     save.addEventListener("click", function () {
       editInput.style.display = "none";
